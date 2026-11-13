@@ -2,7 +2,7 @@
 
 Steps: (1) match Nagaur ration villages to portal villages by name; (2) pick
 the N largest matched villages; (3) print the giscodes to fetch; (4) after the
-fetch, parse and categorise, then join khatedar (name, father) to ration
+fetch, parse and categorize, then join khatedar (name, father) to ration
 applicant (name, father) within the village and report join rates.
 """
 

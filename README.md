@@ -1,7 +1,7 @@
 # Rajasthan Record of Rights 2026
 
 Khatedar name, father's or husband's name, **jati** and residence for every
-integer-numbered plot on Rajasthan's digitised cadastre, scraped from the
+integer-numbered plot on Rajasthan's digitized cadastre, scraped from the
 state's Bhu-Naksha map portal at <https://bhunaksha.rajasthan.gov.in>. Built
 to give a name-to-caste corpus for a state that has no caste census and whose
 public caste-linked name data otherwise stops at SC / ST / OBC / General.
@@ -56,7 +56,7 @@ first 300 integers existed.
 - **The captcha is decorative.** The map's Nakal button generates a six-
   character code in JavaScript and compares the user's typing against it in
   the same function; nothing reaches the server.
-- **The server serialises.** One session sees 0.5 to 3 seconds per request;
+- **The server serializes.** One session sees 0.5 to 3 seconds per request;
   eight parallel sessions together reach about 1.5 requests a second, so
   workers do not multiply throughput. Every hit lists the other plots on the
   same khata (`ownerplots`), and those are recorded as `via` the plot that
@@ -70,7 +70,7 @@ sheet is only marked `done` after the miss run.
 ## Provenance and vintage
 
 Public portal, no authentication, no rate limit observed beyond the
-serialisation above. The records are the live jamabandi as of the fetch date
+serialization above. The records are the live jamabandi as of the fetch date
 recorded on every row, so mutations made after that date are not reflected.
 
 ## Run
