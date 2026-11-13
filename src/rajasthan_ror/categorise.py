@@ -14,7 +14,7 @@ A record's caste field can name several communities at once
 every piece is tried; the first schedule hit wins, in the order SC, ST, MBC,
 OBC, because a community that appears in two lists is in the earlier one by
 a narrower definition (Dholi Bhil is ST, Dholi is SC). A string that hits no
-schedule is labelled ``unlisted``, which is where Rajput, Brahmin, Bania and
+schedule is labeled ``unlisted``, which is where Rajput, Brahmin, Bania and
 Jain sit, and is *not* the same as General: an unlisted string may be a
 misspelling the key did not bridge.
 
